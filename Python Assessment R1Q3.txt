@@ -1,0 +1,28 @@
+Q3. One-Line Answers (Answers to be written on .txt file):
+
+QA. What is reverse-i-search in a Linux terminal?
+Ans: As to work in a passive speed we must often use the keyword shortcuts. The "reverse-i-search" is one of them. "reverse-i-search" searches backward in history, from newest to oldest.It searches backward starting at the current line and moving ‘up’ through the history as necessary. This is an incremental search.
+      We can use this feature by pressing "ctrl + r" simultaneously.
+
+QB. How do you list out the hidden directories using Linux command line tool?
+Ans: Hidden directories in Linux are directories that are not listed when using the ls command. These directories are usually used to store configuration files or other sensitive information. To view hidden directories, we use the -a flag with the ls command. To list out the hidden files in the linux, there are mainly two methods.
+     Method 1: Linux show hidden files and folders with 'ls' command:
+               In this method, we generaly use 'ls' command in Linux to show hidden files and folders.
+               We can use ls command with "-a"  to show all files including hidden files and folder.
+               With "-a "we do not ignore entries starting with "." that means also Linux show hidden files and folders.
+               For example to show hidden files and folders which we created in above steps, navigate to your directory and execute ls -a
+               We have also used "-l" to give us a long list so we use ls "-al" to show all files under test directory in long list format
+    
+    Method 2: Linux show hidden files and folders with 'find' command:
+              Now with 'ls' command we were able to show hidden files in one directory or may be multiple directories in Linux and Unix. But with 'ls' it is little tricky to show hidden folders and files across all partitions. Here we can find hidden files using 'find' command in Linux or Unix.
+ 	      If we know that hidden files start with dot (.) character then, we can use this trick with find command to find hidden files.
+              For example to find hidden files use '-type f'.
+	      
+
+QC. How comfortable are you with using Linux-based OS like Ubuntu, Centos, etc?
+
+Ans: As a computer science professional, it is must for me to be able to handle the different operating systems. Primarily I use Windows OS and have also worked with Fedora OS for almost two years. So, answering to the above question, I can say I will be comfortable to work with different operating systems. 
+
+QD. Have you ever used Servers to host any web applications in the past? If yes, what
+services did you set up (Like- Apache/Nginx/FTP/SMTP, etc)?
+Ans: Sorry, but I haven't used the external servers to host any of the web application.
